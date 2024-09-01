@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn English Letters</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Learning English Letters</h1>
+    <div class="container">
+      <div class="input">
+        <input
+          type="number"
+          id="randomNumberInput"
+          placeholder="Enter Number from 1 to 26"
+          min="1"
+          max="26"
+          required
+        />
+        <button id="randomButton">Show Characters</button>
+      </div>
+      <div class="keys" id="keysContainer">
+        <div class="key"><button class="letter" data-letter="A">A</button></div>
+        <div class="key"><button class="letter" data-letter="B">B</button></div>
+        <div class="key"><button class="letter" data-letter="C">C</button></div>
+        <div class="key"><button class="letter" data-letter="D">D</button></div>
+        <div class="key"><button class="letter" data-letter="E">E</button></div>
+        <div class="key"><button class="letter" data-letter="F">F</button></div>
+        <div class="key"><button class="letter" data-letter="G">G</button></div>
+        <div class="key"><button class="letter" data-letter="H">H</button></div>
+        <div class="key"><button class="letter" data-letter="I">I</button></div>
+        <div class="key"><button class="letter" data-letter="J">J</button></div>
+        <div class="key"><button class="letter" data-letter="K">K</button></div>
+        <div class="key"><button class="letter" data-letter="L">L</button></div>
+        <div class="key"><button class="letter" data-letter="M">M</button></div>
+        <div class="key"><button class="letter" data-letter="N">N</button></div>
+        <div class="key"><button class="letter" data-letter="O">O</button></div>
+        <div class="key"><button class="letter" data-letter="P">P</button></div>
+        <div class="key"><button class="letter" data-letter="Q">Q</button></div>
+        <div class="key"><button class="letter" data-letter="R">R</button></div>
+        <div class="key"><button class="letter" data-letter="S">S</button></div>
+        <div class="key"><button class="letter" data-letter="T">T</button></div>
+        <div class="key"><button class="letter" data-letter="U">U</button></div>
+        <div class="key"><button class="letter" data-letter="V">V</button></div>
+        <div class="key"><button class="letter" data-letter="W">W</button></div>
+        <div class="key"><button class="letter" data-letter="X">X</button></div>
+        <div class="key"><button class="letter" data-letter="Y">Y</button></div>
+        <div class="key"><button class="letter" data-letter="Z">Z</button></div>
+      </div>
+      <div id="descriptionContainer" class="description-container"></div>
+      <div id="imageContainer" class="image-container">
+        <img
+          id="letterImage"
+          src=""
+          alt="Letter Description"
+          style="display: none"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
